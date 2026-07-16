@@ -16,6 +16,12 @@
     "native": "yarn workspace @skynexuiexamples/native",
     "dev:native": "yarn native start"
   },
+  
+  "resolutions": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  
   "dependencies": {
     "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz"
   }

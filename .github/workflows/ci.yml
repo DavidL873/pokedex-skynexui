@@ -22,5 +22,8 @@ jobs:
     - name: Instalando dependências (yarn install)
       run: yarn install
 
+    - name: Rodando os testes automatizados
+      run: yarn test
+
     - name: Construindo o projeto web (yarn build:web)
       run: yarn build:web

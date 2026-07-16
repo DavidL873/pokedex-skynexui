@@ -9,7 +9,7 @@ try {
 
     // Teste 2: Simulação de dados
     const pokemon = "Pikachu;
-    assert.strictEqual(typeof pokemon, "Pikachu");
+    assert.strictEqual(typeof pokemon, "string");
     console.log("Teste 2 passou");
 
     console.log("Todos os testes passaram com sucesso!");

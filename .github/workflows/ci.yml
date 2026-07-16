@@ -1,0 +1,26 @@
+name: CI Pokedex SkyNexUI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout do código
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14.x' 
+
+    - name: Instalando dependências (yarn install)
+      run: yarn install
+
+    - name: Rodando os testes (yarn test)
+      run: yarn test

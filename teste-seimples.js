@@ -4,7 +4,7 @@ console.log("Iniciando testes automatizados da Pokédex...");
 
 try {
     // Teste 1: Matemática básica (simulando uma regra de negócio)
-    assert.strictEqual(1 + 1, 2);
+    assert.strictEqual(1 + 1, 3);
     console.log("✅ Teste 1 passou: A lógica matemática está correta!");
 
     // Teste 2: Simulação de dados

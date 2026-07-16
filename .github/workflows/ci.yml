@@ -12,12 +12,12 @@ jobs:
 
     steps:
     - name: Checkout do código
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Setup Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v4
       with:
-        node-version: '14.x' 
+        node-version: '16.x' 
 
     - name: Instalando dependências (yarn install)
       run: yarn install

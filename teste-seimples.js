@@ -14,7 +14,7 @@ try {
 
     // Teste 3: Verificando uma propriedade de um objeto (String)
     const pikachu = { nome: 'Pikachu', tipo: 'Elétrico' };
-    assert.strictEqual(pikachu.tipo, 'Fogo', "Erro");
+    assert.strictEqual(pikachu.tipo, 'Elétrico', "Erro");
     console.log(" Teste 3 passou");
 
     console.log(" Todos os testes aprovados");
